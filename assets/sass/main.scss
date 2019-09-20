@@ -7,3 +7,73 @@ body {
   background-color: #dddddd;
   text-align: left;
 }
+
+div.square {
+  font-size:0;
+  height: 600px;
+  div {
+    &.cal1{
+      display: inline-block;
+      vertical-align: top;
+    }
+    &.cal2{
+      display: inline-block;
+      vertical-align: top;
+    }
+    &.cal3{
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  div {
+    &.square-red{
+      display: inline-block;
+      vertical-align: top;
+      height: 500px;
+      width: 200px;
+      margin: 0px;
+      background-color: red;
+    }
+    &.square-blue{
+      display: inline-block;
+      vertical-align: top;
+      height: 200px;
+      width: 200px;
+      margin: 0px;
+      background-color: blue;
+    }
+    &.square-black{
+      display: inline-block;
+      vertical-align: top;
+      height: 300px;
+      width: 200px;
+      margin: 0px;
+      background-color: black;
+    } 
+    &.square-yellow{
+      display: inline-block;
+      vertical-align: top;
+      height: 100px;
+      width: 200px;
+      margin: 0px;
+      background-color: yellow;
+    } 
+    &.square-green{
+      display: inline-block;
+      vertical-align: top;
+      height: 400px;
+      width: 200px;
+      margin: 0px;
+      background-color: green;
+    } 
+    &.square-pink{
+      display: inline-block;
+      vertical-align: top;
+      height: 300px;
+      width: 200px;
+      margin: 0px;
+      background-color: pink;
+    }  
+  }
+}

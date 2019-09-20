@@ -6,4 +6,78 @@ body {
   background-color: #dddddd;
   text-align: left;
 }
+
+div.square {
+  font-size: 0;
+  height: 600px;
+}
+
+div.square div.cal1 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.square div.cal2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.square div.cal3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.square div.square-red {
+  display: inline-block;
+  vertical-align: top;
+  height: 500px;
+  width: 200px;
+  margin: 0px;
+  background-color: red;
+}
+
+div.square div.square-blue {
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  background-color: blue;
+}
+
+div.square div.square-black {
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 200px;
+  margin: 0px;
+  background-color: black;
+}
+
+div.square div.square-yellow {
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  width: 200px;
+  margin: 0px;
+  background-color: yellow;
+}
+
+div.square div.square-green {
+  display: inline-block;
+  vertical-align: top;
+  height: 400px;
+  width: 200px;
+  margin: 0px;
+  background-color: green;
+}
+
+div.square div.square-pink {
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 200px;
+  margin: 0px;
+  background-color: pink;
+}
 /*# sourceMappingURL=main.css.map */
