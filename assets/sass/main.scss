@@ -15,14 +15,17 @@ div.square {
     &.cal1{
       display: inline-block;
       vertical-align: top;
+      width: 200px;
     }
     &.cal2{
       display: inline-block;
       vertical-align: top;
+      width: 200px;
     }
     &.cal3{
       display: inline-block;
       vertical-align: top;
+      width: 200px;
     }
   }
 
@@ -75,5 +78,59 @@ div.square {
       margin: 0px;
       background-color: pink;
     }  
+  }  
+}
+
+div.wrapper {
+  font-size:0;
+  width: 600px;
+  height: 1000px;
+  
+  div{
+    &.header{
+      display: inline-block;
+      vertical-align: top;
+      height: 200px;
+      width: 600px;
+    }
+    &.title {
+      display: inline-block;
+      background-color: blue;
+      height: 100px;
+      width: 600px;
+    }
+    &.menu {
+      display: inline-block;
+      background-color: pink;
+      height: 100px;
+      width: 600px;
+    }
+    &.main{
+      display: inline-block;
+      background-color: skyblue;
+      height: 600px;
+      width: 400px;
+    }
+    &.sidebar{
+      display: inline-block;
+      div {
+        height: 200px;
+        width: 200px;
+
+        &.side-1{
+          background-color: yellow;
+        }
+        &.side-2{
+          background-color: orange;
+        }
+        &.side-3{
+          background-color: red;
+        }
+      }
+    }
+    &.footer{
+      background-color: lime;
+      height: 100px;
+    }
   }
 }

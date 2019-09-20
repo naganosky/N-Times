@@ -15,16 +15,19 @@ div.square {
 div.square div.cal1 {
   display: inline-block;
   vertical-align: top;
+  width: 200px;
 }
 
 div.square div.cal2 {
   display: inline-block;
   vertical-align: top;
+  width: 200px;
 }
 
 div.square div.cal3 {
   display: inline-block;
   vertical-align: top;
+  width: 200px;
 }
 
 div.square div.square-red {
@@ -79,5 +82,65 @@ div.square div.square-pink {
   width: 200px;
   margin: 0px;
   background-color: pink;
+}
+
+div.wrapper {
+  font-size: 0;
+  width: 600px;
+  height: 1000px;
+}
+
+div.wrapper div.header {
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+  width: 600px;
+}
+
+div.wrapper div.title {
+  display: inline-block;
+  background-color: blue;
+  height: 100px;
+  width: 600px;
+}
+
+div.wrapper div.menu {
+  display: inline-block;
+  background-color: pink;
+  height: 100px;
+  width: 600px;
+}
+
+div.wrapper div.main {
+  display: inline-block;
+  background-color: skyblue;
+  height: 600px;
+  width: 400px;
+}
+
+div.wrapper div.sidebar {
+  display: inline-block;
+}
+
+div.wrapper div.sidebar div {
+  height: 200px;
+  width: 200px;
+}
+
+div.wrapper div.sidebar div.side-1 {
+  background-color: yellow;
+}
+
+div.wrapper div.sidebar div.side-2 {
+  background-color: orange;
+}
+
+div.wrapper div.sidebar div.side-3 {
+  background-color: red;
+}
+
+div.wrapper div.footer {
+  background-color: lime;
+  height: 100px;
 }
 /*# sourceMappingURL=main.css.map */
