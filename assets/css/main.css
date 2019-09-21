@@ -90,56 +90,75 @@ div.wrapper {
   height: 1000px;
 }
 
-div.wrapper div.header {
+div.wrapper .header {
   display: inline-block;
   vertical-align: top;
   height: 200px;
   width: 600px;
 }
 
-div.wrapper div.title {
+div.wrapper .header .title {
   display: inline-block;
   background-color: blue;
   height: 100px;
   width: 600px;
 }
 
-div.wrapper div.menu {
+div.wrapper .header .menu {
   display: inline-block;
-  background-color: pink;
   height: 100px;
   width: 600px;
 }
 
-div.wrapper div.main {
+div.wrapper .header .menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.wrapper .header .menu li {
+  list-style: none;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+div.wrapper .header .menu li:nth-of-type(even) {
+  background: pink;
+}
+
+div.wrapper .header .menu li:nth-of-type(odd) {
+  background: gray;
+}
+
+div.wrapper .main {
   display: inline-block;
   background-color: skyblue;
   height: 600px;
   width: 400px;
 }
 
-div.wrapper div.sidebar {
+div.wrapper .sidebar {
   display: inline-block;
 }
 
-div.wrapper div.sidebar div {
+div.wrapper .sidebar div {
   height: 200px;
   width: 200px;
 }
 
-div.wrapper div.sidebar div.side-1 {
+div.wrapper .sidebar div.side-1 {
   background-color: yellow;
 }
 
-div.wrapper div.sidebar div.side-2 {
+div.wrapper .sidebar div.side-2 {
   background-color: orange;
 }
 
-div.wrapper div.sidebar div.side-3 {
+div.wrapper .sidebar div.side-3 {
   background-color: red;
 }
 
-div.wrapper div.footer {
+div.wrapper .footer {
   background-color: lime;
   height: 100px;
 }

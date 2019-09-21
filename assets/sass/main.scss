@@ -86,51 +86,67 @@ div.wrapper {
   width: 600px;
   height: 1000px;
   
-  div{
-    &.header{
-      display: inline-block;
-      vertical-align: top;
-      height: 200px;
-      width: 600px;
-    }
-    &.title {
+  .header{
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 600px;
+
+    .title {
       display: inline-block;
       background-color: blue;
       height: 100px;
       width: 600px;
     }
-    &.menu {
+    .menu {
       display: inline-block;
-      background-color: pink;
+//      background-color: pink;
       height: 100px;
       width: 600px;
-    }
-    &.main{
-      display: inline-block;
-      background-color: skyblue;
-      height: 600px;
-      width: 400px;
-    }
-    &.sidebar{
-      display: inline-block;
-      div {
-        height: 200px;
-        width: 200px;
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+      }
+      li:nth-of-type(even) {
+        background: pink;
+      }
+      li:nth-of-type(odd) {
+        background: gray;
+      }
+    }  
+  }
+  .main{
+    display: inline-block;
+    background-color: skyblue;
+    height: 600px;
+    width: 400px;
+  }
+  .sidebar{
+    display: inline-block;
+    div {
+      height: 200px;
+      width: 200px;
 
-        &.side-1{
-          background-color: yellow;
-        }
-        &.side-2{
-          background-color: orange;
-        }
-        &.side-3{
-          background-color: red;
-        }
+      &.side-1{
+        background-color: yellow;
+      }
+      &.side-2{
+        background-color: orange;
+      }
+      &.side-3{
+        background-color: red;
       }
     }
-    &.footer{
-      background-color: lime;
-      height: 100px;
-    }
   }
+  .footer{
+    background-color: lime;
+    height: 100px;
+  }
+  
 }
