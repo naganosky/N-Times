@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',serif;
+  line-height: 1.5;
+  color: #505050;
+  background-color: #dddddd;
+  text-align: left;
+}
+
+div.square {
+  font-size:0;
+  height: 600px;
+  div {
+    &.cal1{
+      display: inline-block;
+      vertical-align: top;
+      width: 200px;
+    }
+    &.cal2{
+      display: inline-block;
+      vertical-align: top;
+      width: 200px;
+    }
+    &.cal3{
+      display: inline-block;
+      vertical-align: top;
+      width: 200px;
+    }
+  }
+
+  div {
+    &.square-red{
+      display: inline-block;
+      vertical-align: top;
+      height: 500px;
+      width: 200px;
+      margin: 0px;
+      background-color: red;
+    }
+    &.square-blue{
+      display: inline-block;
+      vertical-align: top;
+      height: 200px;
+      width: 200px;
+      margin: 0px;
+      background-color: blue;
+    }
+    &.square-black{
+      display: inline-block;
+      vertical-align: top;
+      height: 300px;
+      width: 200px;
+      margin: 0px;
+      background-color: black;
+    } 
+    &.square-yellow{
+      display: inline-block;
+      vertical-align: top;
+      height: 100px;
+      width: 200px;
+      margin: 0px;
+      background-color: yellow;
+    } 
+    &.square-green{
+      display: inline-block;
+      vertical-align: top;
+      height: 400px;
+      width: 200px;
+      margin: 0px;
+      background-color: green;
+    } 
+    &.square-pink{
+      display: inline-block;
+      vertical-align: top;
+      height: 300px;
+      width: 200px;
+      margin: 0px;
+      background-color: pink;
+    }  
+  }  
+}
+
+div.wrapper {
+  font-size:0;
+  width: 600px;
+  height: 1000px;
+  
+  .header{
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 600px;
+
+    .title {
+      display: inline-block;
+      background-color: blue;
+      height: 100px;
+      width: 600px;
+    }
+    .menu {
+      display: inline-block;
+//      background-color: pink;
+      height: 100px;
+      width: 600px;
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+      }
+      li:nth-of-type(even) {
+        background: pink;
+      }
+      li:nth-of-type(odd) {
+        background: gray;
+      }
+    }  
+  }
+  .main{
+    display: inline-block;
+    background-color: skyblue;
+    height: 600px;
+    width: 400px;
+  }
+  .sidebar{
+    display: inline-block;
+    div {
+      height: 200px;
+      width: 200px;
+
+      &.side-1{
+        background-color: yellow;
+      }
+      &.side-2{
+        background-color: orange;
+      }
+      &.side-3{
+        background-color: red;
+      }
+    }
+  }
+  .footer{
+    background-color: lime;
+    height: 100px;
+  }
+  
+}
