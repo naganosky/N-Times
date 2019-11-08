@@ -6,41 +6,41 @@
     <title>45番実験室</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
-
   </head>
   <body>
-    <p id="fixed">
-      <img src="./img/cardboardbox-1.png" alt="段ボール箱">
-    </p>
-    <div id="headline">
-      <h1>45番実験室</h1>
-      <p>ここから始めるHTML</p>
-    </div>
-    <div class="main">
-      <h2>レイアウト練習</h2>
-      <div class="square">
-        <div class="cal1">
-          <div class="square-red">
-          </div>
-          <div class="square-yellow">
-          </div>
-        </div>
-          <div class="cal2">
-          <div class="square-blue">
-          </div>
-          <div class="square-green">
-          </div>
-        </div>
-        <div class="cal3">
-          <div class="square-black">
-          </div>
-          <div class="square-pink">
-          </div>
-        </div>
+    <div class="wrapper">
+      <p id="fixed">
+        <img src="./img/cardboardbox-1.png" alt="段ボール箱">
+      </p>
+      <div id="headline">
+        <h1>45番実験室</h1>
+        <p>ここから始めるHTML</p>
       </div>
-      
+      <div class="container">
+        <h2>レイアウト練習</h2>
+        <div class="square">
+          <div class="cal1">
+            <div class="square-red">
+            </div>
+            <div class="square-yellow">
+            </div>
+          </div>
+            <div class="cal2">
+            <div class="square-blue">
+            </div>
+            <div class="square-green">
+            </div>
+          </div>
+          <div class="cal3">
+            <div class="square-black">
+            </div>
+            <div class="square-pink">
+            </div>
+          </div>
+        </div>
+      </div>  
       <h2>CSSレイアウト練習２</h2>
-      <div class="wrapper">
+      <div class="container2">
         <div class="header">
           <div class="title"></div>
           <div class="menu">
@@ -54,7 +54,7 @@
             </ul>
           </div>
         </div>
-        <div class="main">
+        <div class="main2">
         </div>
         <div class="sidebar">
           <div class="side-1"></div>
@@ -77,50 +77,50 @@
       </p>
       <p><b>太字にする</b></p>
       <p><a href="https://yahoo.co.jp">yahooへのリンクも貼ってみる</a></p>
+      <h2>リストを作る</h2>
+      <h3>ordered list 項番付きの箇条書き</h3>
+        <ol>
+          <li>箇条書き項番付き</li>
+          <li>こういった</li>
+          <li>リストを作る</li>
+        </ol>
+      <h3>unorderd list 項番無しの箇条書き</h3>
+        <ul>
+          <li>項番なしの箇条書き</li>
+          <li>このように</li>
+          <li>するとよいらしい</li>
+        </ul>
+      <h2>画像を表示する</h2>
+      <div class="image">
+        <img src="./img/fibonacci.gif" alt="フィボナッチ">
+        <span>黄金螺旋</span>
+      </div>
+      <div class="table01">
+        <h2>テーブルを作っていく</h2>
+        <table>
+          <tr>
+            <th colspan=4>いつやるんですか？</th>
+          </tr>
+          <tr>
+            <th>担当</th><th>事象１</th><th>事象２</th><th>事象３</th>
+          </tr>
+          <tr class="odd">
+            <td>担当A</td><td>今日やる</td><td>明日やる</td><td>やらない</td>
+          </tr>
+          <tr class="even">
+            <td>担当B</td><td>できたらやる</td><td>できたらやる</td><td>無理</td>
+          </tr>
+          <tr class="odd">
+            <td>担当C</td><td>やる</td><td>やる</td><td>やる</td>
+          </tr>
+        </table>
+      </div>
+      <h2>引用ボックスを作る</h2>
+      <blockquote>
+          一般に蝙蝠の空中揚力の強さは知られるところであるが、中国河南省山奥に生息する攣鵠蝙蝠はその揚力が５キロもあるといわれる。元朝中期、青巾族の乱の折り、元軍の都尉・安史明はこの蝙蝠２０匹を使い、万里の長城を越え敵を攪乱することに成功したという。
+          これを応用し、多彩な変化技を加えて成立したのが乖宙浮遊體であり、 怪拳として世に恐れられた。</br>
+          民明書房刊『実用動物辞典』より
+      </blockquote>
     </div>
-    <h2>リストを作る</h2>
-    <h3>ordered list 項番付きの箇条書き</h3>
-      <ol>
-        <li>箇条書き項番付き</li>
-        <li>こういった</li>
-        <li>リストを作る</li>
-      </ol>
-    <h3>unorderd list 項番無しの箇条書き</h3>
-      <ul>
-        <li>項番なしの箇条書き</li>
-        <li>このように</li>
-        <li>するとよいらしい</li>
-      </ul>
-    <h2>画像を表示する</h2>
-    <div class="image">
-      <img src="./img/fibonacci.gif" alt="フィボナッチ">
-      <span>黄金螺旋</span>
-    </div>
-    <div class="table01">
-      <h2>テーブルを作っていく</h2>
-      <table>
-        <tr>
-          <th colspan=4>いつやるんですか？</th>
-        </tr>
-        <tr>
-          <th>担当</th><th>事象１</th><th>事象２</th><th>事象３</th>
-        </tr>
-        <tr class="odd">
-          <td>担当A</td><td>今日やる</td><td>明日やる</td><td>やらない</td>
-        </tr>
-        <tr class="even">
-          <td>担当B</td><td>できたらやる</td><td>できたらやる</td><td>無理</td>
-        </tr>
-        <tr class="odd">
-          <td>担当C</td><td>やる</td><td>やる</td><td>やる</td>
-        </tr>
-      </table>
-    </div>
-    <h2>引用ボックスを作る</h2>
-    <blockquote>
-        一般に蝙蝠の空中揚力の強さは知られるところであるが、中国河南省山奥に生息する攣鵠蝙蝠はその揚力が５キロもあるといわれる。元朝中期、青巾族の乱の折り、元軍の都尉・安史明はこの蝙蝠２０匹を使い、万里の長城を越え敵を攪乱することに成功したという。
-        これを応用し、多彩な変化技を加えて成立したのが乖宙浮遊體であり、 怪拳として世に恐れられた。</br>
-        民明書房刊『実用動物辞典』より
-    </blockquote>
   </body>
 </html>
