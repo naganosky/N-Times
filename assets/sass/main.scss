@@ -97,6 +97,27 @@ div.wrapper {
   height: 1000px;
   margin: 0, auto;
   
+  .sidebar{
+    vertical-align: top;
+    display: inline-block;
+    height: max-content;
+    width: 200px;
+    margin: auto;
+  }
+
+  .menu{
+    height: max-content;
+    width: max-content;
+    margin: 15px, auto;
+  }
+
+  .main{
+    display: inline-block;
+    height: max-content;
+    width: 700px;
+    margin: auto;
+  }
+
   .header{
     display: inline-block;
     vertical-align: top;
@@ -109,7 +130,7 @@ div.wrapper {
       height: 100px;
       width: 600px;
     }
-    .menu {
+    .menu2 {
       display: inline-block;
 //      background-color: pink;
       height: 100px;
@@ -145,7 +166,7 @@ div.wrapper {
     height: 600px;
     width: 400px;
   }
-  .sidebar{
+  .sidebar2{
     display: inline-block;
     div {
       height: 200px;

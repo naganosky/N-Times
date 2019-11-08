@@ -107,6 +107,35 @@ div.wrapper {
   margin: 0, auto;
 }
 
+div.wrapper .sidebar {
+  vertical-align: top;
+  display: inline-block;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 200px;
+  margin: auto;
+}
+
+div.wrapper .menu {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 15px, auto;
+}
+
+div.wrapper .main {
+  display: inline-block;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 700px;
+  margin: auto;
+}
+
 div.wrapper .header {
   display: inline-block;
   vertical-align: top;
@@ -121,29 +150,29 @@ div.wrapper .header .title {
   width: 600px;
 }
 
-div.wrapper .header .menu {
+div.wrapper .header .menu2 {
   display: inline-block;
   height: 100px;
   width: 600px;
 }
 
-div.wrapper .header .menu ul {
+div.wrapper .header .menu2 ul {
   margin: 0;
   padding: 0;
 }
 
-div.wrapper .header .menu li {
+div.wrapper .header .menu2 li {
   list-style: none;
   display: inline-block;
   height: 100px;
   width: 100px;
 }
 
-div.wrapper .header .menu li:nth-of-type(even) {
+div.wrapper .header .menu2 li:nth-of-type(even) {
   background: pink;
 }
 
-div.wrapper .header .menu li:nth-of-type(odd) {
+div.wrapper .header .menu2 li:nth-of-type(odd) {
   background: gray;
 }
 
@@ -160,24 +189,24 @@ div.wrapper .main2 {
   width: 400px;
 }
 
-div.wrapper .sidebar {
+div.wrapper .sidebar2 {
   display: inline-block;
 }
 
-div.wrapper .sidebar div {
+div.wrapper .sidebar2 div {
   height: 200px;
   width: 200px;
 }
 
-div.wrapper .sidebar div.side-1 {
+div.wrapper .sidebar2 div.side-1 {
   background-color: yellow;
 }
 
-div.wrapper .sidebar div.side-2 {
+div.wrapper .sidebar2 div.side-2 {
   background-color: orange;
 }
 
-div.wrapper .sidebar div.side-3 {
+div.wrapper .sidebar2 div.side-3 {
   background-color: red;
 }
 
