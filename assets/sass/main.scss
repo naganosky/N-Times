@@ -92,12 +92,13 @@ div.square {
 
 
 div.wrapper {
-  font-size: 16px;
-  width: max-content;
-  height: 1000px;
+  font-size: 0px;
+  width: 980px;
+  height: 100%;
   margin: 0, auto;
   
   .sidebar{
+    font-size: 16px;
     vertical-align: top;
     display: inline-block;
     height: max-content;
@@ -105,16 +106,19 @@ div.wrapper {
     margin: auto;
   }
 
-  .menu{
+  nav{
     height: max-content;
     width: max-content;
     margin: 15px, auto;
   }
 
   .main{
+    font-size: 16px;
     display: inline-block;
-    height: max-content;
-    width: 700px;
+    overflow: scroll;
+    height: auto;
+    width: max-content;
+    max-width: 780px;
     margin: auto;
   }
 

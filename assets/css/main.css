@@ -99,15 +99,14 @@ div.square div.square-pink {
 }
 
 div.wrapper {
-  font-size: 16px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  height: 1000px;
+  font-size: 0px;
+  width: 980px;
+  height: 100%;
   margin: 0, auto;
 }
 
 div.wrapper .sidebar {
+  font-size: 16px;
   vertical-align: top;
   display: inline-block;
   height: -webkit-max-content;
@@ -117,7 +116,7 @@ div.wrapper .sidebar {
   margin: auto;
 }
 
-div.wrapper .menu {
+div.wrapper nav {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -128,11 +127,14 @@ div.wrapper .menu {
 }
 
 div.wrapper .main {
+  font-size: 16px;
   display: inline-block;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  width: 700px;
+  overflow: scroll;
+  height: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 780px;
   margin: auto;
 }
 
