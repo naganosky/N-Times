@@ -17,8 +17,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #505050;
-  background-color: #dddddd;
   text-align: left;
+  background: url(../../common/images/back.png);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#mainimage img {
+  width: 100%;
 }
 
 div.square {
@@ -100,23 +106,24 @@ div.square div.square-pink {
 
 div.wrapper {
   font-size: 0px;
-  width: 980px;
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0, auto;
 }
 
 div.wrapper .sidebar {
-  font-size: 16px;
   vertical-align: top;
+  font-size: 16px;
   display: inline-block;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
   width: 200px;
   margin: auto;
 }
 
 div.wrapper nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 10px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -129,7 +136,6 @@ div.wrapper nav {
 div.wrapper .main {
   font-size: 16px;
   display: inline-block;
-  overflow: scroll;
   height: auto;
   width: -webkit-max-content;
   width: -moz-max-content;

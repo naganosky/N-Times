@@ -12,8 +12,16 @@ body {
   font-size:16px;
   line-height: 1.5;
   color: #505050;
-  background-color: #dddddd;
   text-align: left;
+  background: url(../../common/images/back.png);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#mainimage{
+  img {
+    width: 100%;
+  }
 }
 
 div.square {
@@ -93,20 +101,22 @@ div.square {
 
 div.wrapper {
   font-size: 0px;
-  width: 980px;
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0, auto;
   
   .sidebar{
-    font-size: 16px;
     vertical-align: top;
+    font-size: 16px;
     display: inline-block;
-    height: max-content;
     width: 200px;
     margin: auto;
   }
 
   nav{
+    position: sticky;
+    top: 10px;
+    left: 10px;
     height: max-content;
     width: max-content;
     margin: 15px, auto;
@@ -115,7 +125,6 @@ div.wrapper {
   .main{
     font-size: 16px;
     display: inline-block;
-    overflow: scroll;
     height: auto;
     width: max-content;
     max-width: 780px;
