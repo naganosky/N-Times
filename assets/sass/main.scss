@@ -102,10 +102,13 @@ div.square {
 div.wrapper {
   font-size: 0px;
   width: auto;
-  height: auto;
+  height: 1000px;
   margin: 0, auto;
-  
+
   .sidebar{
+    position: sticky;
+    top: 10px;
+    left: 10px;
     vertical-align: top;
     font-size: 16px;
     display: inline-block;
@@ -114,9 +117,6 @@ div.wrapper {
   }
 
   nav{
-    position: sticky;
-    top: 10px;
-    left: 10px;
     height: max-content;
     width: max-content;
     margin: 15px, auto;
